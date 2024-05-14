@@ -3,8 +3,7 @@ It is aresponsive-website using HTML and Css only.No Bootstrap and any other css
 <img width="296" alt="teeth-whitening" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/6c9c1b0a-f1c3-4589-85a9-9fa50c98a240">
 <img width="190" alt="Smiling-girl" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/a14b0ee7-a13e-441d-983a-d6ff90fccfe2">
 <img width="298" alt="smile-makover" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/b8732b83-8dc1-460e-a6af-87f9e70710af">
-<img width="296" alt="teeth-whitening" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/982be24c-5aa3-484d-8623-1ac2077fc1e6">
-<img width="298" alt="smile-makover" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/18dbf7d7-2bb1-42a6-aa4c-c349a757a34b">
+
 ![shubham-braces](https://github.com/Keenu22/clove-intern-website/assets/128450063/43408060-1f09-476c-9435-359449613f97)
 <img width="304" alt="RCT" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/bc6502a4-6fee-418a-98fe-a06c81931481">
 <img width="253" alt="logo" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/ac105b8e-37e2-4d06-b74c-ffcdb3dd03b2">
@@ -18,7 +17,6 @@ It is aresponsive-website using HTML and Css only.No Bootstrap and any other css
 <img width="295" alt="laser" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/2afcbaf4-c65f-4a65-b917-1ecc38ad5b03">
 <img width="285" alt="invi-braces" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/6d358c14-8dac-4fdf-b6fe-e2ad67f6d06c">
 <img width="290" alt="gums" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/f74c3ada-0584-4c2d-8d3b-f7abf842bbf3">
-<img width="420" alt="footer-logo" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/3c9944d3-19ae-421d-97a5-89ada718660b">
 <img width="281" alt="expert" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/524d5e6d-7472-42fc-9988-b4268c58cfaa">
 
 <img width="289" alt="dentures" src="https://github.com/Keenu22/clove-intern-website/assets/128450063/6a360000-2dad-4427-b196-cfc2c3e81120">

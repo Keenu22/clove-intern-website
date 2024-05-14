@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clove Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="navbar_wrapper"></section>
+    <nav class="navbar">
+       <img src="./logo.png" alt="logo" height=30px/>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Treatments &#9662;</a>
+            <ul class="dropdown-content" type="none">
+              <li><a href="#">Advance Gum Treatments</a></li>
+              <li><a href="#">Clear Aligners</a></li>
+              <li><a href="#">Teeth whitening</a></li>
+              <li><a href="#">Root Canal Treatment</a></li>
+              <li><a href="#">Wisdom Tooth Removal</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Dental Plans &#9662;</a>
+            <ul class="dropdown-content" type="none">
+              <li><a href="#"><em><p>North India India</p></em><p>+91-8295136282</p></a></li>
+              <li><a href="#"><em><p>South India</p></em><p>+91-8295136282</p>/a></li>
+              <li><a href="#"><em><p>Mail us</p></em><p>care@clovedental.in</p></a></li>
+            </ul>
+          </li>
+          <li><a href="#">Our Doctors</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Find a Clinic</a></li>
+          <li><a href="#" ><button class="btn1" id="book"><i class="fa-solid fa-book"></i> Book Appointment</button></a>
+          </li>
+          <li class="dropdown"><button class="btn2"><i class="fa-solid fa-phone"></i> Help &#9662</i></button>
+            <ul class="dropdown-content" type="none">
+              <li><a href="#"><em><p>North India India</p></em><p>+91-8295136282</p></a></li>
+              <li><a href="#"><em><p>South India</p></em><p>+91-8295136282</p>/a></li>
+              <li><a href="#"><em><p>Mail us</p></em><p>care@clovedental.in</p></a></li>
+              </ul>
+            </li>
+        </ul>
+      </nav>
+    </section>
+    
+    
+    <section id="home" class="home">
+        <div class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="banner_wrapper">
+                  <div class="grid-container">
+                    <div class="grid-item">
+                      <h1>Advance Dental Health Plan</h1>
+                      <h5>Dental care worth Rs.8000/-</h5>
+                      <h3>Only at Rs.550/-</h3>
+                      <button class="btn1">Buy Now</button>
+                    </div>
+                    <div class="grid-item">
+                      <div class="image">
+                        <img class="aimg1" src="./Smiling-girl.png"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="banner_wrapper">
+                  <div class="grid-container">
+                    <div class="grid-item">
+                      <h1>Another Dental Health Plan</h1>
+                      <h5>Additional Dental care worth Rs.5000/-</h5>
+                      <h3>Only at Rs.350/-</h3>
+                      <button class="btn1">Buy Now</button>
+                    </div>
+                    <div class="grid-item">
+                      <div class="image">
+                        <img class="aimg1" src="./Smiling-girl.png"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="carousel-indicators">
+              <li class="carousel-indicator active"></li>
+              <li class="carousel-indicator"></li>
+            </ul>
+          </div>
+</section>
+<section class="google">
+<div class="google_wrapper">
+  <div class="column column1">
+    <h3><span id="orange">450+</span>World Class Clinics</h3>
+    <p>Manned By 1200+ Super Specialists</p>
+  </div>
+  <div class="column column2">
+      <div class="column nested-column1">
+        <i class="fa-brands fa-google fa-2xl" style="color: #63E6BE;"></i>
+      </div>
+      <div class=" column nested-column2">
+          <div class="content1">
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <h4>4.9/5</h4>
+          </div>
+          <div class="content2">
+            <h4><span id="orange">1.5 Lakh+</span></h4>
+            <p>5 star Ratings</p>
+          </div>
+      </div>
+  </div>
+  <div class="column column3">
+    <div class="select-wrapper">
+      <select class="select-city" id="city" name="city">
+          <option value="" selected disabled>Select Your City</option>
+          <option value="city1">Ahmedabad</option>
+          <option value="city2">Amritsar</option>
+          <option value="city3">Bengaluru</option>
+          <option value="city3">Chennai</option>
+          <option value="city3">Delhi</option>
+
+          
+      </select>
+    </div>
+    <!-- Input for locating nearest Clove clinic -->
+    <div class="input-wrapper">
+      <input class="orange-input" type="text" id="nearest-clinic" name="nearest-clinic" placeholder="Locate Nearest Clove Clinic">
+    </div>
+  </div>
+</div>
+</section>
+<section id="treatments">
+  <div class="treatment_wrapper">
+    <h4>All dental issues from simple cleaning to full mouth rehabilitation under one roof</h4>
+    <div class="row">
+      <div class="column"><img src="./RCT.png"/></div>
+      <div class="column"><img src="./Braces.png"/></div>
+      <div class="column"><img src="./dental-implants.png"/></div>
+      <div class="column"><img src="./dentistry.png"/></div>
+      <div class="column"><img src="./dentures.png"/></div>
+      <div class="column"><img src="./gums.png"/></div>
+    </div>
+    <div class="row">
+      <div class="column"><img src="./invi-braces.png"/></div>
+      <div class="column"><img src="./smile-makover.png"/></div>
+      <div class="column"><img src="./laser.png"/></div>
+      <div class="column"><img src="./teeth-whitening.png"/></div>
+      <div class="column"><img src="./wisdom.png"/></div>
+      <div class="column"><img src="./crown.png"/></div>
+    </div>
+    <a href="#"><i class="fa-light fa-magnifying-glass fa-2xs" style="color: #d57215;"></i>Explore treatments<i class="fa-thin fa-arrow-right fa-2xs" style="color: #d57215;"></i></a>
+  </div>
+</section>
+
+<section id="consultation">
+  <div class="consult_wrapper">
+  <div class="column column1">
+    <form>
+      <h6>Expert Guidance For Healthy Smiles</h6>
+      <p>Contact now</p>
+      <input type="text" id="name" name="name"placeholder="Name" required><br><br>
+      <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="Mobile No." required><br><br>
+      
+      <label for="concern">Concern:</label>
+      <select id="concern" name="concern" required>
+        <option value="">Select Concern</option>
+        <option value="General Inquiry">General Inquiry</option>
+        <option value="Appointment Scheduling">Appointment Scheduling</option>
+        <option value="Specific Health Concern">Specific Health Concern</option>
+      </select><br><br>
+      
+      <button class="btn1">Book A Free Consultation </button>
+    </form>
+  </div>
+  <div class="column column2">
+    <div class="row1">
+      <div class="cols1">
+        <h4>10X Safety Protocols</h4>
+        <p>Monitored by DORI</p>
+        <p>(Artificial Intelligence System)</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div class="cols2"><img src="./Untitled design (2) 1.png"/></div>
+    </div>
+    <div class="row2">
+      <div class="cols3"><img src="./locate.png"/></div>
+      <div class="cols4"><img src="./expert.png"/></div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="words">
+  <div class="words_wrapper">
+    <h6>In their Own Words</h6>
+    <div class="card">
+      <img src="./shubham-braces.png"/>
+      <p>Shubham</p>
+      <p id="orange">Braces</p>
+    </div>
+    <div class="card">
+      <img src="./b-2.png"/>
+      <p>Shubham</p>
+      <p id="orange">Braces</p>
+    </div>
+    <div class="card">
+      <img src="./b3.png"/>
+      <p>Shubham</p>
+      <p id="orange">Braces</p>
+    </div>
+    <div class="card">
+      <img src="./test.gif"/>
+      <p>Shubham</p>
+      <p id="orange">Braces</p>
+    </div>
+    <div class="card">
+      <img src="./b4.png"/>
+      <p>Shubham</p>
+      <p id="orange">Braces</p>
+    </div>
+  </div>
+</section>
+
+<section id="Doctors">
+  <div class="doctor_wrapper">
+    <div class="row">
+      <div class="col1">
+        <h2>Unmatched Dental Excellence by 1200+ Specialists</h2>
+        <p>Team of Specialists</p>
+        <p><span id="orange">75+</span>Orthodontics</p>
+        <p>Leading with<span id="orange">80%</span>women</p>
+        <p><span id="orange">65%</span>MDS doctors specialized</p>
+      </div>
+      <div class="col2">
+        <div class="card">
+          <img src="./docsur.png"/>
+          <h4>Dr. Suresh Kumar</h4>
+          <p>18+ years Experience</p>
+        </div>
+        <div class="card">
+          <img src="./docraj.png"/>
+          <h4>Dr. Rajni Mary</h4>
+          <p>10+ years Experience</p>
+        </div>
+      </div>
+    </div>
+    <button class="btn1" id="meet">Meet our Doctors</button>
+    <footer class="common_footer">
+      <div class="flex-items">
+        <div><p><span id="orange">20L+</span>Happy Patients</p></div>
+        <div><p><span id="orange">1200+</span>Dentists</p></div>
+        <div><p><span id="orange">450+</span>Clinics</p></div>
+        <div><p><span id="orange">7-Days</span>Open</p></div>
+        <div><p><span id="orange">450+</span>Clinics</p></div>
+        <div><p><span id="orange">1200+</span>Dentists</p></div>
+        <div><p><span id="orange">7-Days</span>Open</p></div>
+        <div><p><span id="orange">20L+</span>Happy Patients</p></div>
+        <div><p><span id="orange">1200+</span>Dentists</p></div>
+      </div>
+    </footer>
+  </div>
+</section>
+<!--faq-section-->
+<section id="faq">
+  <div class="faq_wrapper">
+    <h1>Frequently Asked Questions</h1>
+    <div class="columns">
+      <div class="column1">
+        <div class="faq_item">Can I choose a dentist own my own for Treatment?</div>
+        <div class="faq_item">Can I choose a dentist own my own for Treatment?</div>
+        <div class="faq_item">Can I choose a dentist own my own for Treatment?</div>
+      </div>
+      <div class="column2">
+        <div class="faq_item">Can I choose a dentist own my own for Treatment?</div>
+        <div class="faq_item">Can I choose a dentist own my own for Treatment?</div>
+        <div class="faq_item">Can I choose a dentist own my own for Treatment?</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="page_footer">
+    <div class="column">
+      <div class="flex-item"><h4>Treatments</h4></div>
+      <div class="flex-item"><p>Laser Dentistry</p></div>
+      <div class="flex-item"><p>Root Canal Treatment</p></div>
+      <div class="flex-item"><p>Dental fillings</p></div>
+      <div class="flex-item"><p>Wisdom Teeth removal</p></div>
+      <div class="flex-item"><p>Braces & Aligners</p></div>
+      <div class="flex-item"><p>Clear Aligners</p></div>
+      <div class="flex-item"><p>Root Canal Treatment</p></div>
+    </div>
+    <div class="column">
+      <div class="flex-item"><h4>Quick Links</h4></div>
+      <div class="flex-item"><p>Home</p></div>
+      <div class="flex-item"><p>Services</p></div>
+      <div class="flex-item"><p>About us</p></div>
+      <div class="flex-item"><p>Locations</p></div>
+      <div class="flex-item"><p>Book Appointment</p></div>
+      <div class="flex-item"><p>Contact Us</p></div>
+    </div>
+    
+    <div class="column">
+      <div class="flex-item"><h4>Explore Clove</h4></div>
+      <div class="flex-item"><p>Our Team</p></div>
+      <div class="flex-item"><p>Clinic Overview</p></div>
+      <div class="flex-item"><p>Testimonials</p></div>
+      <div class="flex-item"><p>Blogs</p></div>
+      <div class="flex-item"><p>News</p></div>
+    </div>
+
+    <div class="column">
+      <div class="flex-item"><h4>Legal</h4></div>
+      <div class="flex-item"><p>Privacy Policy</p></div>
+      <div class="flex-item"><p>Terms & Conditions</p></div>
+    </div>
+
+    <div class="column">
+      <div class="flex-item"><h4>Connect With us</h4></div>
+      <div class="flex-item"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+      <div class="flex-item"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+      <div class="flex-item"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
